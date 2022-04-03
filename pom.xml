@@ -129,5 +129,19 @@
             </resource>
         </resources>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>ruhnn-release</id>
+            <name>ruhnn repository release</name>
+            <url>http://maven.layercake18.com/repository/maven-releases/</url>
+        </repository>
+        <!-- 开发版 -->
+        <snapshotRepository>
+            <id>ruhnn-snapshots</id>
+            <name>ruhnn repository snapshots</name>
+            <url>http://maven.layercake18.com/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 
 </project>

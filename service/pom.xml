@@ -15,12 +15,17 @@
     <modules>
         <module>service-user</module>
         <module>service-hosp</module>
+        <module>servie-cmn</module>
     </modules>
     <dependencies>
-
         <dependency>
             <groupId>com.learn</groupId>
             <artifactId>model</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.learn</groupId>
+            <artifactId>common</artifactId>
             <version>1.0</version>
         </dependency>
         <!--web-->

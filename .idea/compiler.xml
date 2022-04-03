@@ -12,6 +12,7 @@
         <module name="service-util" />
         <module name="service-hosp" />
         <module name="service-user" />
+        <module name="servie-cmn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -22,6 +23,7 @@
       <module name="service-hosp" target="1.8" />
       <module name="service-user" target="1.8" />
       <module name="service-util" target="1.8" />
+      <module name="servie-cmn" target="1.8" />
       <module name="yygh" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -34,6 +36,7 @@
       <module name="service-hosp" options="-parameters" />
       <module name="service-user" options="-parameters" />
       <module name="service-util" options="-parameters" />
+      <module name="servie-cmn" options="-parameters" />
       <module name="yygh" options="-parameters" />
     </option>
   </component>
